@@ -1,0 +1,19 @@
+.section.four{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--regular-white-color);
+    display: grid; 
+    grid-template-columns: repeat(2, 50%);
+}
+
+.left__price-list{
+    width: 900px;
+   
+    background-color: red;
+    margin: 0;
+    height: 100vh;
+}
+
+.right__rice-right {
+    background-color: blue;
+}

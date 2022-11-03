@@ -1,0 +1,46 @@
+.eight__title {
+    margin-top: 52px;
+}
+
+.one__title {
+    padding-bottom: 11px;
+    padding-left: 101px;
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.06em;
+
+    color: #fcfaff;
+}
+
+.two__title {
+    padding-left: 137px;
+
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    letter-spacing: 0.06em;
+}
+
+.eight__number {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+
+    margin-top: 59px;
+    margin-left: 92px;
+}
+
+.eight__arrow {
+    margin-top: 47px;
+    margin-left: 53px;
+}

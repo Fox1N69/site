@@ -1,0 +1,289 @@
+#two {
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    max-height: 682px;
+}
+
+
+.directions__content-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 1200px;
+    
+}
+
+.directions__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 6%;
+    text-align: center;
+    margin-top: 53px;
+    color: #1d1d1d;
+}
+
+.directions__title-decoration {
+    margin-top: 30px;
+
+    width: 100px;
+    height: 0px;
+
+    border: 3.5px solid #6f0fba;
+    border-radius: 7px;
+
+    
+}
+
+
+
+.wrapper {
+    width: 100%;
+    bottom: 90px;
+    position: relative;
+    top: 162px;
+}
+.carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+/* .carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    width: 350px;
+    height: 380px;
+  } */
+
+.owl-item {
+    text-align: center;
+    margin: 20px 0 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 380px;
+}
+
+.carousel .card-1 {
+}
+.carousel .card-2 {
+}
+.carousel .card-3 {
+    border-radius: 20px;
+}
+.carousel .card-4 {
+}
+.carousel .card-5 {
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
+.owl-dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc !important;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+.owl-dot.active,
+.owl-dot:hover {
+    background: #0072bc !important;
+}
+
+.owl-item.active.center{
+    width: 390px;
+    height: 420px;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+
+
+.owl-item.active.center .card-img{
+    margin-bottom: 35px;
+}
+
+.owl-item.active.center .card__content{
+    margin-top: 5px;
+}
+
+.card__more__btn{
+    font-family: 'Montserrat';
+    font-weight: 600; 
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    border: 2px solid #fceffc;
+    border-radius: 30px;
+    padding: 8px;
+    color: #fceffc;
+    
+    
+
+    cursor: pointer;
+
+    position: absolute;
+    left:125px;
+    top: 110px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+
+.card-img__content:hover .card__more__btn {
+    opacity: 1;
+}
+
+.card-img {
+    border-radius: 20px 20px 5px 5px;
+    margin-bottom: 18px;
+    width: 360px;
+    height: 250px;
+    color: wh;
+}
+
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 30% ;
+
+}
+
+#card-img-1{
+    background: url(../img/directions/img-directions2.png);
+    
+}
+#card-img-2{
+    background: url(../img/directions/img-directions3.png);
+}
+#card-img-3{
+    background: url(../img/directions/img-directions4.png);
+
+}
+#card-img-4{
+    background: url(../img/directions/img-directions5.png);
+}
+#card-img-5{
+    background: url(../img/directions/img-directions6.png);
+    height: 250px;
+    border-radius: 20px 20px 5px 5px;
+}
+#card-img-6 {
+    background: url(../img/directions/img-directions7.png);
+}
+#card-img-7 {
+    background: url(../img/directions/img-directions1.png);
+}
+
+
+#card-img-1:hover{
+
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)), url(../img/directions/img-directions2.png);
+}
+#card-img-2:hover{
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions3.png);
+}
+#card-img-3:hover{
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions4.png);
+
+}
+#card-img-4:hover{
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions5.png);
+}
+#card-img-5:hover{
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions6.png);
+    height: 250px;
+    border-radius: 20px 20px 5px 5px;
+}
+#card-img-6:hover {
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions7.png);
+}
+#card-img-7:hover {
+    background: linear-gradient(0deg, rgba(111, 15, 186, 0.5), rgba(111, 15, 186, 0.5)),url(../img/directions/img-directions1.png);
+}
+
+
+
+.card__content {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: left;
+    padding: 0;
+    gap: 10px;
+    margin: 0px 78px 31px 23px;
+    max-width: 249px;
+}
+
+.card__old-text {
+    
+   font-weight: 400; 
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.05em;
+   color: #6e6e6e;
+
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+
+
+}
+
+.card__title {
+    font-weight: 600;    
+    font-size: 17px;    
+    line-height: 21px;
+    letter-spacing: 0.02em;
+
+    color: #1d1d1d;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    text-align: left;
+}
+
+.card__btn__about {
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+
+    color: #6E6E6E;
+
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+
+    
+}
+
+.link__about-arrow{
+    /* border: 0.7px solid #6e6e6e;
+    width: 12px; */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
